@@ -1,0 +1,27 @@
+body{
+    background: color #f4f4f4;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stopwatch-container{
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 36px;
+}
+.controls{
+    margin-top: 10px;
+}
+.buttons{
+    font-size: 20px;
+}
+.buttons:hover{
+    background-color: darkgray;
+    color: aliceblue;
+    transform: scale(1.10);
+}
+.buttons:active{
+    transform: scale(1.5);
+}
+#laps{
+    font-size: 20px;
+}
